@@ -2,7 +2,8 @@
 --There 2 tables used, one containing new cases and deaths information, and the second one contains vaccination information.
 
 -- I am now selecting the data I am interested in.
-Select location, date, total_cases, new_cases, total_deaths, population
+```sql
+	Select location, date, total_cases, new_cases, total_deaths, population
 from PortfolioCovidProject1..CovidDeaths
 order by 1, 2
 
@@ -15,7 +16,7 @@ Select location,
 from PortfolioCovidProject1..CovidDeaths
 where continent like '%africa%'
 order by 1, 2
-
+```
 -- The following query answers the question: How likely were you to catch covid in the United States in any given day?
 Select location, 
 		date, 
