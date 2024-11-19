@@ -110,7 +110,7 @@ from covid_analysis.CovidDeaths
 where continent is not null
 ;
 ```
-### 2. Exploratory Data Analysis Using More Than One Table
+### 3. Exploratory Data Analysis Using More Than One Table
 
 
 - **Vaccination Roling Counts**:  In the following querey, I will join my 2 tables to gain additional insights into the data in the query below. Specifically, I want the vaccination rates per population.  Because I am interested in breaking the rolling count of vaccinations by country, I am using the partition over command.
@@ -236,7 +236,7 @@ where codea.continent = 'North America'
 
 ;
 ```
-### 2. Views For Visualization
+### 4. Views For Visualization
 
 
 - **Vaccination View**:  I am now going to create some views for use in visualizations. This first view represents the percentage of the population vaccinated over time.
