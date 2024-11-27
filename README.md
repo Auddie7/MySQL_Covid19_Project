@@ -1,5 +1,5 @@
 # MySQL Project: Analysis ov worldwide dataset on CoVid 19 cases using SQL queries to answer relevant questions
-
+![screenshot](GettyImages-1210455332.jpg)
 ## Project Overview
 
 **Project Title**: CoVid 19 Data Analysis  
